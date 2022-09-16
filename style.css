@@ -1,0 +1,31 @@
+.strength{
+    background-image: url("img/strength.jpg");
+    background-size: cover;
+}
+
+.mobility{
+    background-image: url("img/mobility.jpg");
+    background-size: cover;
+}
+
+.drills{
+    background-image: url("img/drills.jpg");
+    background-size: cover;
+}
+
+.effect{
+    width: 33.33%;
+    height: 500px;
+    
+}
+.effect:hover{
+    width:50%;
+}
+
+.icon{
+    display: none;
+}
+
+.effect:hover .icon{
+    display: block;
+}
