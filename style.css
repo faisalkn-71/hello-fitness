@@ -1,6 +1,14 @@
+.main-div{
+    border: solid 2px black;
+    border-radius: 20px;
+    
+}
+
 .strength{
     background-image: url("img/strength.jpg");
     background-size: cover;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
 }
 
 .mobility{
@@ -11,6 +19,8 @@
 .drills{
     background-image: url("img/drills.jpg");
     background-size: cover;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
 }
 
 .effect{
@@ -28,4 +38,26 @@
 
 .effect:hover .icon{
     display: block;
+}
+
+
+/* ------------------
+      Media quries 
+---------------------*/
+
+/* mobile devices */
+
+@media only screen and (min-width:100px) and (max-width:688px) {
+    .effect:hover{
+        width:200%;
+        overflow: hidden;
+    }
+}
+
+/* tablet devices */
+    @media only screen and (min-width:689px) and (max-width:992px) {
+        .effect:hover{
+            width:100%;  
+        }
+    
 }
